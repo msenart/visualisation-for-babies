@@ -36,6 +36,8 @@ $$
 \eta_{k,\text{selected region},region} = \frac{\sum_{i=1}^{k}|\text{i-st most famous name in the region}|_{region}}{\sum_{i=1}^{10}|\text{i-st most famous name in the selected region}|_{region}} \geq 1
 $$
 
+It is two interesting different behaviors under discussion, we will select only one of them.
+
 Finally, to complete the map, we could add a **chronological slidebar**, that makes the average on X-years (X could be represented by the length of the sliderbar) to capture time tendencies.
 
 
@@ -47,5 +49,5 @@ Finally, to complete the map, we could add a **chronological slidebar**, that ma
 
 ## Cons :
 
-- might be demanding for Altair.
+- might be a demanding implementation for Altair.
 - Completely ignores the name of minority peoples (we could invert the logic though).
